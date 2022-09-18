@@ -19,7 +19,7 @@ Category.init(
   },
 },
 {
-  // links to database connection
+  
   sequelize,
 
   timestamps: false,

@@ -4,6 +4,12 @@ const routes = require("./routes");
 const sequelize = require("./config/connection");
 const { application } = require("express");
 
+
+const Category = require("./models/Category");
+const Product = require("./models/Product");
+const ProductTag = require("./models/ProductTag");
+const Tag = require("./models/Tag");
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 

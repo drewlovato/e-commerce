@@ -14,29 +14,8 @@ Category.init(
     allowNull: true,
   },
   category_name:{
-    Shirts: {
       type: DataTypes.STRING,
-    },
-  },
-  category_name:{
-    Shorts: {
-      type: DataTypes.STRING,
-    },
-  },
-  category_name:{
-    Music: {
-      type: DataTypes.STRING,
-    },
-  },
-  category_name:{
-    Hats: {
-      type: DataTypes.STRING,
-    },
-  },
-  category_name:{
-    Shoes: {
-      type: DataTypes.STRING,
-    },
+      allowNull: true,
   },
 },
 {

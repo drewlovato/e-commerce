@@ -18,6 +18,14 @@ Product.init(
     },
     product_name: {
       type: DataTypes.STRING,
+      allowNull: false,
+    },
+    price: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    stock: {
+      type: DataTypes.INTEGER,
       allowNull: true,
     },
     tag_id: {
@@ -27,7 +35,7 @@ Product.init(
         key: 'id',
         unique: false,
       }
-    }
+    },
   },
   {
     sequelize,
